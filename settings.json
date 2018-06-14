@@ -1,0 +1,6 @@
+{
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+}

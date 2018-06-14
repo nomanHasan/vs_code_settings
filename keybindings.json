@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+o ctrl+s",
+    "command": "editor.action.openDeclarationToTheSide",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+k f12",
+    "command": "-editor.action.openDeclarationToTheSide",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  }
+]
