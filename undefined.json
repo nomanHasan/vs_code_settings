@@ -1,7 +1,0 @@
-{
-	"undefined": {
-		"body": [
-			"export const EXPAND_NAV_DRAWER = 'EXPAND_NAV_DRAWER';"
-		]
-	}
-}
