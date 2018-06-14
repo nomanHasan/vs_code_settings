@@ -19,5 +19,19 @@
     "key": "ctrl+k f12",
     "command": "-editor.action.openDeclarationToTheSide",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+shift+m ctrl+shift+p",
+    "command": "markdown-preview-enhanced.syncPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-markdown-preview-enhanced.syncPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+o ctrl+shift+s",
+    "command": "workbench.action.openSnippets"
   }
 ]

@@ -3,4 +3,24 @@
     "git.enableSmartCommit": true,
     "window.zoomLevel": 0,
     "editor.tabSize": 2,
+    "eslint.autoFixOnSave": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
 }

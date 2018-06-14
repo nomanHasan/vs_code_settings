@@ -6,7 +6,23 @@
 		],
 		"description": "Constant String"
 	},
-	"cnstrscaf": {
+	"cnstrscaf_single": {
+		"prefix": "cnstrscaf_single",
+		"body": [
+			"",
+			"// $1 Action Types",
+			"",
+			"export const GET_$1 = 'GET_$1';",
+			"export const FETCH_$1 = 'FETCH_$1';",
+			"export const SET_$1 = 'SET_$1';",
+			"export const INSERT_$1 = 'INSERT_$1';",
+			"export const UPDATE_$1 = 'UPDATE_$1';",
+			"export const DELETE_$1 = 'DELETE_$1';",
+			""
+		],
+		"description": "Export Constant Strings Scaffolded by Single GET, FETCH, SET, DELETE, UPDATE, INSERT"
+	},
+	"cnstrscaf_both": {
 		"prefix": "cnstrscaf",
 		"body": [
 			"",
@@ -36,5 +52,14 @@
 			"}"
 		],
 		"description": "Vuejs Action"
+	},
+	"VueMutation": {
+		"prefix": "v-mut",
+		"body": [
+			"[types.$1] (state, payload) {",
+			"  state.$2 = payload;",
+			"}"
+		],
+		"description": "Vue Mutation Template"
 	}
 }
