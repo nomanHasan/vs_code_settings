@@ -5,5 +5,42 @@
 			"export const $1 = '$1';"
 		],
 		"description": "constantstring"
+	},
+	"undefined": {
+		"prefix": "leftsc",
+		"body": [
+			"_leftScroll = 0;\r",
+			"  \r",
+			"  set leftScroll(value) {\r",
+			"    this._leftScroll = value;\r",
+			"  }\r",
+			"\r",
+			"  get leftScroll() {\r",
+			"    return this._leftScroll;\r",
+			"  }"
+		]
+	},
+	"Setter Getter": {
+		"prefix": "setget",
+		"body": [
+			"_$1: ${2:any} = ${3};\r",
+			"  \r",
+			"set $1(value: $2) {\r",
+			"  this._$1 = value;\r",
+			"}\r",
+			"\r",
+			"get $1() {\r",
+			"  return this._$1;\r",
+			"}"
+		],
+		"description": "Setter and Getter"
+	},
+	"console time": {
+		"prefix": "ct",
+		"body": [
+			"console.time('$1');",
+			"console.timeEnd('$1');",
+		],
+		"description": "Console Time TimeEnd"
 	}
 }
