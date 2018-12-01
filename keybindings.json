@@ -33,5 +33,27 @@
   {
     "key": "ctrl+shift+o ctrl+shift+s",
     "command": "workbench.action.openSnippets"
+  },
+  {
+    "key": "ctrl+shift+s ctrl+shift+a",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+shift+s ctrl+shift+o",
+    "command": "workbench.action.openGlobalKeybindings"
+  },
+  {
+    "key": "ctrl+k ctrl+s",
+    "command": "-workbench.action.openGlobalKeybindings"
+  },
+  {
+    "key": "ctrl+shift+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]

@@ -1,0 +1,9 @@
+{
+	"constantstring": {
+		"prefix": "cnstr",
+		"body": [
+			"export const $1 = '$1';"
+		],
+		"description": "constantstring"
+	}
+}

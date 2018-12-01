@@ -61,5 +61,12 @@
 			"}"
 		],
 		"description": "Vue Mutation Template"
+	},
+	"console_log": {
+		"prefix": "cl",
+		"body": [
+			"console.log('$1');"
+		],
+		"description": "console_log"
 	}
 }
