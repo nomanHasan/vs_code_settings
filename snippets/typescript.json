@@ -6,6 +6,13 @@
 		],
 		"description": "constantstring"
 	},
+	"string enum": {
+		"prefix": "nmstr",
+		"body": [
+			"$1 = '$1',"
+		],
+		"description": "String Enum"
+	},
 	"undefined": {
 		"prefix": "leftsc",
 		"body": [

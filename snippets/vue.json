@@ -1,0 +1,22 @@
+{
+	"modalSnippet": {
+		"prefix": "vuemodal",
+		"body": [
+			"<template",
+			"      v-if=\"addFieldModalMixin\"",
+			"    >",
+			"      <v-dialog ",
+			"        v-model=\"addFieldModal\"",
+			"        persistent",
+			"        width=\"600\"",
+			"      >",
+			"      <AddCountry",
+			"        @added=\"onAddField\"",
+			"        @cancelled=\"onAddFieldCancelled\"",
+			"      />",
+			"      </v-dialog>",
+			"    </template>"
+		],
+		"description": "Vue Custom Modal implementation "
+	}
+}

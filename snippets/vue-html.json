@@ -1,0 +1,35 @@
+{
+	"modalSnippet": {
+		"prefix": "vuemodal",
+		"body": [
+			"<template",
+			"  v-if=\"$1ModalContainer\"",
+			">",
+			"  <v-dialog ",
+			"    v-model=\"$1Modal\"",
+			"    persistent",
+			"    width=\"1200\"",
+			"  >",
+			"    <${1/(.*)/${1:/capitalize}/}",
+			"      @cancelled=\"on${1/(.*)/${1:/capitalize}/}Cancelled\"",
+			"     />",
+			"  </v-dialog>",
+			"</template>"
+		],
+		"description": "Vue Custom Modal implementation "
+	},
+	"translate": {
+		"prefix": "trans",
+		"body": [
+			"{{$t('$1cancel')}}"
+		],
+		"description": "Translate in Vue Template"
+	},
+	"Translate template variable": {
+		"prefix": "tran",
+		"body": [
+			"\\$t('$1')"
+		],
+		"description": "Translate Vue Javascript Template Variable"
+	}
+}

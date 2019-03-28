@@ -28,4 +28,6 @@
     "window.titleBarStyle": "custom",
     "zenMode.centerLayout": false,
     "breadcrumbs.symbolPath": "last",
+    "terminal.integrated.rendererType": "dom",
+    "breadcrumbs.enabled": true,
 }
