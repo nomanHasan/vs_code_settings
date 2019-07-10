@@ -1,0 +1,11 @@
+{
+	"Screen Mobile css": {
+		"prefix": "sc-mob",
+		"body": [
+			"@media screen and (min-width: 320px) and (max-width: 480px) {",
+			"  ",
+			"}"
+		],
+		"description": "Screen Mobile scss"
+	}
+}

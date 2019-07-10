@@ -18,5 +18,14 @@
 			"    </template>"
 		],
 		"description": "Vue Custom Modal implementation "
+	},
+	"sc-mob": {
+		"prefix": "sc-mob",
+		"body": [
+			"@media screen and (min-width: 320px) and (max-width: 480px) {",
+			"      ",
+			"    }"
+		],
+		"description": "Screen mobile css selector"
 	}
 }

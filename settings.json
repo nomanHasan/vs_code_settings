@@ -1,7 +1,7 @@
 {
     "git.autofetch": true,
     "git.enableSmartCommit": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.tabSize": 2,
     "eslint.autoFixOnSave": true,
     "beautify.language": {
@@ -30,4 +30,6 @@
     "breadcrumbs.symbolPath": "last",
     "terminal.integrated.rendererType": "dom",
     "breadcrumbs.enabled": true,
+    "turboConsoleLog.logMessagePrefix": "Log",
+    "markJump.maximumLimit": 1000,
 }
